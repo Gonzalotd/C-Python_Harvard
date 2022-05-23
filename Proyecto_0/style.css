@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    height: 80px;
+    width: 100%;
+}
+
+.menu ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.menu ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.menu ul li a{
+    color: tomato;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#logo, #logoBusquedaAvanzada {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.buscar {
+    margin-top: 30px;
+    text-align: center;
+}
+.buscar input{
+    background-color: transparent;
+    padding-left: 30px;
+    border: none;
+    font-size: 16px;
+    width: 450px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+}
+
+.btnBusquedas {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btnBusquedas input{
+    text-decoration: none;
+    height: 40px;
+    width: 170px;
+    background-color: #dfe1e5;
+    border: none;
+}
+
+.btnBusquedas input:hover{
+    cursor: pointer;
+   /* box-shadow: 0 0 3px grey; */
+    border: none;
+}
+
+p{
+    color: tomato;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buscarAdvanzada{
+    margin: 30px;
+    text-align: center;
+}
+
+#btnBusquedasAvanzadas{
+    margin-top: 60px;
+    text-align: center;
+}
+#btnBusquedasAvanzadas input{
+    text-decoration: none;
+    height: 40px;
+    width: 170px;
+    background-color: #4d90fe;
+    color: white;
+    border: none;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+}
+
+#formTabla{
+    display: inline-block;
+    text-align: center;
+    margin-left: 120px;
+}
+.buscarAdvanzada label{
+    float: left;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.buscarAdvanzada input{
+    margin-top: 5px;
+    width: 240px;
+    height: 30px;
+    float: right;
+}
